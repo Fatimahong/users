@@ -1,0 +1,100 @@
+body{
+    overflow: hidden;
+
+}
+
+
+.login{
+    padding: 70px;
+    margin-top: 25px;
+    background-position: 0 0,10px 10px;
+    background-size: 21px 21px;
+    border:1px solid rgb(133, 41, 41);
+    border-radius: 10px;
+    border-width: 5px;
+    background-color: #fafafa; 
+    }
+    .signup{
+        padding: 70px;
+        margin-top: 25px;
+        background-position: 0 0,10px 10px;
+        background-size: 21px 21px;
+        border:1px solid rgb(133, 41, 41);
+        border-radius: 10px;
+        border-width: 5px;
+        background-color: #fafafa; 
+        }
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.passwrd{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form-check{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.bton-login{
+    background-color: aqua;
+    color: whitesmoke;
+    width: 83%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: #fafafa;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bton-signup{
+    background-color: aqua;
+    color: whitesmoke;
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border: #fafafa;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.frgt a{
+    text-decoration: none;
+    margin-left: 150px;
+    color: black;
+}
+.frgt a:hover{
+    color: whitesmoke;
+    color: #0d47a1;
+}
+.mb-0{
+    font-weight: bold;
+}
+.mb-0 a{
+font-size: 18px;
+font-weight: bold;
+margin-left: 10px;
+}
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
